@@ -9,7 +9,8 @@ export function Header({ onOpenNewTransactionModal }: ModalProps) {
   return (
     <div className="HeaderContainer">
       <header className="HeaderContent">
-        <img src={logoImg} alt="The Wallet Logo" />
+        <h1>The Wallet</h1>
+        {/* <img src={logoImg} alt="The Wallet Logo" /> */}
         <button onClick={onOpenNewTransactionModal}>Nova Transação</button>
       </header>
     </div>
