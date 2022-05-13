@@ -1,0 +1,29 @@
+.HeaderContainer {
+  background-color: var(--blue);
+}
+
+.HeaderContent {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2rem 1rem 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  button {
+    height: 3rem;
+    border: 0;
+    color: #fff;
+    border-radius: 0.3125rem;
+    background-color: var(--blue-light);
+    line-height: 1.5rem;
+    padding: 0.8571rem 2rem;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+}

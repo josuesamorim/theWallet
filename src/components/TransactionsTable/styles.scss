@@ -1,0 +1,33 @@
+.TransactionsTableContainer {
+  width: 100%;
+  margin-top: 4rem;
+  border-spacing: 0 0.5rem;
+
+  th {
+    color: #969cb2;
+    text-align: left;
+    padding: 1rem 2rem;
+  }
+
+  td {
+    padding: 1rem 2rem;
+    background-color: var(--shape);
+    color: var(--text-body);
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+
+    &:first-child {
+      color: var(--text-title);
+    }
+
+    &.withdraw {
+      color: red;
+    }
+
+    &.deposit {
+      color: green;
+    }
+  }
+}

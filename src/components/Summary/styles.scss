@@ -1,0 +1,30 @@
+.SummaryContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: -7rem;
+
+  div {
+    background-color: var(--shape);
+    border-radius: 0.25rem;
+    padding: 1.5rem 2rem;
+
+    &:last-child {
+      background-color: var(--green);
+      color: #fff;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    strong {
+      display: block;
+      line-height: 3rem;
+      font-size: 2rem;
+      font-weight: 500;
+      margin-top: 1rem;
+    }
+  }
+}
